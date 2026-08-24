@@ -1,0 +1,9 @@
+{
+  "version": "1.15.37",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.37/DeepSeek-Setup-1.15.37.exe",
+  "notes": "桌面版 v1.15.37：标签/面板数量上限可配置（Agent 工作台工具栏新增「上限」按钮）；日志改 UTF-8 编码修复乱码。",
+  "versionCode": 21,
+  "versionName": "1.7.1",
+  "apkUrl": "https://gitee.com/a151641/update/releases",
+  "sig": "j5FHL2fYy18dnZeeE9RiKVi1zjLrjuC7W3Qgtryqtj1Lym9wru7msTSAFoVgGJVn+xTUJC5//XAMisRkHSj5AQ=="
+}
