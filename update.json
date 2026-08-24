@@ -1,9 +1,9 @@
 {
-  "version": "1.15.38",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.38/DeepSeek-Setup-1.15.38.exe",
-  "notes": "桌面版 v1.15.38：更新源切换到 GitHub。",
-  "versionCode": 22,
+  "version": "1.15.39",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.39/DeepSeek-Setup-1.15.39.exe",
+  "notes": "桌面版 v1.15.39：DSH 服务健康检测升级（HTTP 探测 + 工作台渲染崩溃检测）。",
+  "versionCode": 23,
   "versionName": "1.7.1",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.38/DeepSeek-Setup-1.15.38.exe",
-  "sig": "r92tmPe9sc/nq2k54M/mgnRblOQEIhUQmPGrKC92Cchi+Dc4xxzKh7omcfmV9XZJmHM6SuZohBv9Ykv0171QAw=="
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.39/DeepSeek-Setup-1.15.39.exe",
+  "sig": "BR7nBLTcOI8bUhh39UtTA4YEIQ+Fe+wvuNKjNkd5gq9YPw1ZgPscd8zN97yJ9Uil2TI9W6tunMdpFE8uvhQPBw=="
 }
