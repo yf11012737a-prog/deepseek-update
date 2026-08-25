@@ -1,9 +1,9 @@
 {
-  "version": "1.15.49",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.49/DeepSeek-Setup-1.15.49.exe",
-  "notes": "桌面版 v1.15.49：修复启动时自动跳浏览器（DSH 启动加 --no-open）、退出时正确关闭 DSH 服务。",
-  "versionCode": 27,
-  "versionName": "1.7.1",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.49/DeepSeek-Setup-1.15.49.exe",
-  "sig": "QcVtcfoAc9Yf70yPoEfZ3RRx2EHcjFTuLI4ktf8+u4c5BB501F1nQ52/UQMfDnlR5QjyTZH1LJ/MnhbThiKMDw=="
+  "version": "1.16.0",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.16.0/AI-Setup-1.16.0.exe",
+  "notes": "桌面版 v1.16.0：应用更名为「AI 桌面助手」。",
+  "versionCode": 28,
+  "versionName": "1.8.0",
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.16.0/AI-Setup-1.16.0.exe",
+  "sig": "/tJUdlnHrk8kS+yI29DWABwxUv3zYXlrr9Sff3RuJatHUIo9BvOxGO25xsonkntq2rpATx1UayfJYusSFtjkAw=="
 }
