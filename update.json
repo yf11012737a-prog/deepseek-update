@@ -1,9 +1,9 @@
 {
-  "version": "1.15.47",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.47/DeepSeek-Setup-1.15.47.exe",
-  "notes": "桌面版 v1.15.47：内置 Node（安装包自带、不再在线下载）；卸载时自动清理 Harness 环境；修复参数下拉遮挡、停止按钮位置、Agent 安装进度显示；补全错误日志。",
-  "versionCode": 26,
+  "version": "1.15.49",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.49/DeepSeek-Setup-1.15.49.exe",
+  "notes": "桌面版 v1.15.49：修复启动时自动跳浏览器（DSH 启动加 --no-open）、退出时正确关闭 DSH 服务。",
+  "versionCode": 27,
   "versionName": "1.7.1",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.47/DeepSeek-Setup-1.15.47.exe",
-  "sig": "5MHfaSebLXt91nzVR15pTVBoAsYISdukF/MZC2sKtbiDNkrAZAQoAN02LddUk86mqAdIFXAGyI0UfMaOO2NtDg=="
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.15.49/DeepSeek-Setup-1.15.49.exe",
+  "sig": "QcVtcfoAc9Yf70yPoEfZ3RRx2EHcjFTuLI4ktf8+u4c5BB501F1nQ52/UQMfDnlR5QjyTZH1LJ/MnhbThiKMDw=="
 }
