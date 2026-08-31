@@ -1,9 +1,9 @@
 {
-  "version": "1.16.0",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.16.0/AI-Setup-1.16.0.exe",
-  "notes": "桌面版 v1.16.0：应用更名为「AI 桌面助手」。",
-  "versionCode": 28,
-  "versionName": "1.8.0",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.16.0/AI-Setup-1.16.0.exe",
-  "sig": "/tJUdlnHrk8kS+yI29DWABwxUv3zYXlrr9Sff3RuJatHUIo9BvOxGO25xsonkntq2rpATx1UayfJYusSFtjkAw=="
+  "version": "1.17.0",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.17.0/AI-Setup-1.17.0.exe",
+  "notes": "桌面版 v1.17.0：上下文压缩重做（轮次触发 + 双重约束保留 + 记忆锚点跨次继承）。",
+  "versionCode": 29,
+  "versionName": "1.9.0",
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.17.0/AI-Setup-1.17.0.exe",
+  "sig": "UHP8URPxsMjahVyQ9mdEWmpGC+ht2OrRq4pNlYlo5GHnxENNyoyRuQ7iAoZIwn+dsVdAa+yyiFly4Mazd8dKDg=="
 }
