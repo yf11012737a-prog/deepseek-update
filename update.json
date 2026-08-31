@@ -4,6 +4,6 @@
   "notes": "桌面版 v1.17.0：上下文压缩重做（轮次触发 + 双重约束保留 + 记忆锚点跨次继承）。",
   "versionCode": 29,
   "versionName": "1.9.0",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.17.0/AI-Setup-1.17.0.exe",
-  "sig": "UHP8URPxsMjahVyQ9mdEWmpGC+ht2OrRq4pNlYlo5GHnxENNyoyRuQ7iAoZIwn+dsVdAa+yyiFly4Mazd8dKDg=="
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.17.0/AI-Assistant-1.9.0.apk",
+  "sig": "2Z9mEif0lUcaBh/SkK6ULZCtO2NtfgtgzmdwOhhZBX48Ld/XDMA0O0xeTSzSmCpBujUs1azoaPwAbrwzCag6DA=="
 }
