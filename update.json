@@ -1,9 +1,9 @@
 {
-  "version": "1.18.6",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.6/AI-Setup-1.18.6.exe",
-  "notes": "桌面版 v1.18.6：修复公网隧道两个边界问题——关闭局域网远程访问时联动关闭隧道（避免\"看似开启实则不通\"的假活）；隧道意外断开时清除失效链接并给出明确提示。手机版 v1.10.8 不变。",
+  "version": "1.18.7",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.7/AI-Setup-1.18.7.exe",
+  "notes": "桌面版 v1.18.7：修复「远程总开关」可靠性——停止时等待端口真正关闭、开关操作串行化（杜绝快速切换竞态）、总开关关闭时公网生成按钮禁用且不再被隐式重开。现在总开关关闭后局域网与公网都应彻底断开。手机版 v1.10.8 不变。",
   "versionCode": 38,
   "versionName": "1.10.8",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.6/AI-Assistant-1.10.8.apk",
-  "sig": "6MODHWldFB69lj+tEePziOxuBBrblt86luq6EC7Kwn0hPG/ChzgJIdbMIYe2Dh3R5UV94kMQpiojJvvpj5e6BQ=="
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.7/AI-Assistant-1.10.8.apk",
+  "sig": "ZfeC92wM16SRUwJ6stv/06zNz8e6bOzRHABmGD2pdmUDbNgXuQEkDGmdnRVoOanmORv+uWPI81JHK/25pDhVCQ=="
 }
