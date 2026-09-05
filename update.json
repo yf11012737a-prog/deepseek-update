@@ -1,9 +1,9 @@
 {
-  "version": "1.18.5",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.5/AI-Setup-1.18.5.exe",
-  "notes": "桌面版 v1.18.5：远程访问「局域网 + 公网穿透」双模式（手机远程页、📁 文件互传、二维码扫码、公网临时隧道、令牌与应用绑定）；公网面新增令牌查看/换令牌（与局域网同一把），互传页提示公网免费额度限速，上传实时网速。手机版 v1.10.8：远程连接新增「记住状态一键重连」（上次连接卡片/类型/时间/忘记），扫码与手动连接均自动记忆，连接失败显示原因引导页，下载显示实时速度。",
+  "version": "1.18.6",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.6/AI-Setup-1.18.6.exe",
+  "notes": "桌面版 v1.18.6：修复公网隧道两个边界问题——关闭局域网远程访问时联动关闭隧道（避免\"看似开启实则不通\"的假活）；隧道意外断开时清除失效链接并给出明确提示。手机版 v1.10.8 不变。",
   "versionCode": 38,
   "versionName": "1.10.8",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.5/AI-Assistant-1.10.8.apk",
-  "sig": "0hdz0s0+KJ5yQbvzJ7Y7UeBQnX/5ohHJpwbwyOc5o3+dpSl9Friuw/xIRO+vP7iXsrHwExw54rGeeVA956cWBg=="
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.6/AI-Assistant-1.10.8.apk",
+  "sig": "6MODHWldFB69lj+tEePziOxuBBrblt86luq6EC7Kwn0hPG/ChzgJIdbMIYe2Dh3R5UV94kMQpiojJvvpj5e6BQ=="
 }
