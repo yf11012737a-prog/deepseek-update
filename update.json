@@ -1,9 +1,9 @@
 {
-  "version": "1.17.0",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.17.0/AI-Setup-1.17.0.exe",
-  "notes": "桌面版 v1.17.0：上下文压缩重做（轮次触发 + 双重约束保留 + 记忆锚点跨次继承）。",
-  "versionCode": 30,
-  "versionName": "1.10.0",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.17.0/AI-Assistant-1.10.0.apk",
-  "sig": "HsRVHM9dYfcBc1uR2OFdExJ8IbpLMIv6c9qABvU6phjs9unIZTOvD60DZipoO6sC+XVgiTDL02/OVTw+saevDQ=="
+  "version": "1.18.4",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.4/AI-Setup-1.18.4.exe",
+  "notes": "桌面版 v1.18.4：远程访问升级为「局域网 + 公网穿透」双模式。新增：手机远程页（极简对话，支持换会话/换模型/流式）、📁 局域网文件互传（电脑端互传面板：双击打开/定位文件夹）、二维码扫码连接、公网临时隧道（Cloudflare 内网穿透，免账号）、令牌与应用绑定。手机版 v1.10.6 同步支持以上功能。",
+  "versionCode": 36,
+  "versionName": "1.10.6",
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.4/AI-Assistant-1.10.6.apk",
+  "sig": "2ND1AnoQWGkIfNfylcBxUi14tR00NfzKqM7Ee6VJnRIQZBYhQp6htug48W4fVMh2FKfvkCSv0ondkc0X+OVUBw=="
 }
