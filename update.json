@@ -1,9 +1,9 @@
 {
-  "version": "1.18.7",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.7/AI-Setup-1.18.7.exe",
-  "notes": "桌面版 v1.18.7：修复「远程总开关」可靠性——停止时等待端口真正关闭、开关操作串行化（杜绝快速切换竞态）、总开关关闭时公网生成按钮禁用且不再被隐式重开。现在总开关关闭后局域网与公网都应彻底断开。手机版 v1.10.8 不变。",
-  "versionCode": 38,
-  "versionName": "1.10.8",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.7/AI-Assistant-1.10.8.apk",
-  "sig": "ZfeC92wM16SRUwJ6stv/06zNz8e6bOzRHABmGD2pdmUDbNgXuQEkDGmdnRVoOanmORv+uWPI81JHK/25pDhVCQ=="
+  "version": "1.18.19",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.19/AI-Setup-1.18.19.exe",
+  "notes": "桌面 v1.18.19 · 手机 v1.10.17（versionCode 47）：互传全面增强——1) 整个文件夹互传：手机可整文件夹上传并保留目录结构，文件夹可打包 zip 下载；2) 新增「免压缩下载文件夹」：逐文件拉到手机、保留目录结构、文件级进度与停止，大文件夹不再依赖巨型 zip；3) 手机端下载修复（令牌直连、不再依赖 cookie）；4) 发送文件夹到共享不再卡界面：异步复制 + 磁盘空间预检 + 进度/取消，并改用系统 robocopy 引擎（快且不拖慢系统，进度为真实写入字节）；5) 删除文件夹递归修复，卡住的下载/zip 流 150 秒自动释放文件占用（不再出现文件被占删不掉）；6) 上传/下载进度改为真实字节并修复重复计数导致的「卡 99%」；7) 手机互传页显示电脑 v…·手机 v… 便于核对两端版本。两端请同时更新。",
+  "versionCode": 47,
+  "versionName": "1.10.17",
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.19/AI-Assistant-1.10.17.apk",
+  "sig": "NYNLqM3jkHw3EivO06BpIdguylR8syXzjFqLBsfHUohBdh1Ws2hVXUKKpg6Ulbxl/uH/T01nrcKh6TEpnXxSDg=="
 }
