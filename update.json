@@ -1,9 +1,9 @@
 {
-  "version": "1.18.19",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.19/AI-Setup-1.18.19.exe",
-  "notes": "桌面 v1.18.19 · 手机 v1.10.17（versionCode 47）：互传全面增强——1) 整个文件夹互传：手机可整文件夹上传并保留目录结构，文件夹可打包 zip 下载；2) 新增「免压缩下载文件夹」：逐文件拉到手机、保留目录结构、文件级进度与停止，大文件夹不再依赖巨型 zip；3) 手机端下载修复（令牌直连、不再依赖 cookie）；4) 发送文件夹到共享不再卡界面：异步复制 + 磁盘空间预检 + 进度/取消，并改用系统 robocopy 引擎（快且不拖慢系统，进度为真实写入字节）；5) 删除文件夹递归修复，卡住的下载/zip 流 150 秒自动释放文件占用（不再出现文件被占删不掉）；6) 上传/下载进度改为真实字节并修复重复计数导致的「卡 99%」；7) 手机互传页显示电脑 v…·手机 v… 便于核对两端版本。两端请同时更新。",
+  "version": "1.18.20",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.20/AI-Setup-1.18.20.exe",
+  "notes": "桌面 v1.18.20 · 手机 v1.10.17（versionCode 47）：新增「自定义互传目录」——共享目录默认 文档\\AI 桌面助手互传（首次使用自动创建），现在可在互传弹窗点「更换目录…」换成任意文件夹并立即生效（远程开启时自动用新目录重载，磁盘预检按新目录所在盘计算），「恢复默认」一键切回。其余增强（同 v1.18.19）：文件夹互传（手机整文件夹上传保留结构、可 zip/免压缩逐文件下载）、发送文件夹走系统 robocopy 引擎（大文件夹不卡界面不卡系统、真实字节进度+取消）、删除递归修复、下载/zip 流 150 秒超时自动释放占用、进度真实字节修复「卡 99%」、手机互传页显示两端版本。两端请同时更新到 1.18.20 / 1.10.17。",
   "versionCode": 47,
   "versionName": "1.10.17",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.19/AI-Assistant-1.10.17.apk",
-  "sig": "NYNLqM3jkHw3EivO06BpIdguylR8syXzjFqLBsfHUohBdh1Ws2hVXUKKpg6Ulbxl/uH/T01nrcKh6TEpnXxSDg=="
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.20/AI-Assistant-1.10.17.apk",
+  "sig": "D/le7V+5p2QxRqP2TACaVm/3i3akgKMpgujfynAbVxNTjiJX3XI1jFA4IVJgIC+zbTUw1ZswynqiZETRFfVwAw=="
 }
