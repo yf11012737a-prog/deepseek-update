@@ -1,9 +1,9 @@
 {
-  "version": "1.18.20",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.20/AI-Setup-1.18.20.exe",
-  "notes": "桌面 v1.18.20 · 手机 v1.10.17（versionCode 47）：新增「自定义互传目录」——共享目录默认 文档\\AI 桌面助手互传（首次使用自动创建），现在可在互传弹窗点「更换目录…」换成任意文件夹并立即生效（远程开启时自动用新目录重载，磁盘预检按新目录所在盘计算），「恢复默认」一键切回。其余增强（同 v1.18.19）：文件夹互传（手机整文件夹上传保留结构、可 zip/免压缩逐文件下载）、发送文件夹走系统 robocopy 引擎（大文件夹不卡界面不卡系统、真实字节进度+取消）、删除递归修复、下载/zip 流 150 秒超时自动释放占用、进度真实字节修复「卡 99%」、手机互传页显示两端版本。两端请同时更新到 1.18.20 / 1.10.17。",
-  "versionCode": 47,
-  "versionName": "1.10.17",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.20/AI-Assistant-1.10.17.apk",
-  "sig": "D/le7V+5p2QxRqP2TACaVm/3i3akgKMpgujfynAbVxNTjiJX3XI1jFA4IVJgIC+zbTUw1ZswynqiZETRFfVwAw=="
+  "version": "1.18.26",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.26/AI-Setup-1.18.26.exe",
+  "notes": "桌面 v1.18.26 · 手机 v1.10.24（versionCode 54）。本版重点：1) 修复「联网搜索」——官方 Responses API 已不再执行内置 web_search（仅 function 有效），现改走 Anthropic 兼容 Messages 端点 + 原生 web_search_20250305 服务器工具（桌面与手机同步修复，实测可正常联网）；2) 手机端联网只显示搜索词、不再显示网页链接，未触发联网的提示改为只写日志；3) 修复手机端无法下载文件——改用 App 内下载（系统下载器在部分机型/网络下会静默失败），文件保存到手机「下载/AI 助手/」，带进度与停止、失败显示真实原因；4) 服务端为下载/未授权请求增加日志，便于排查；5) 互传增强：发送文件夹改用系统 robocopy 引擎（大文件夹不卡界面不卡系统、真实进度）、下载/zip 流 150 秒无数据自动释放文件占用（不再出现文件删不掉）、支持自定义互传目录、手机端可整文件夹上传（保留目录结构）与免压缩逐文件下载。两端请同时更新到 1.18.26 / 1.10.24。",
+  "versionCode": 54,
+  "versionName": "1.10.24",
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.26/AI-Assistant-1.10.24.apk",
+  "sig": "4F54OLkZfIImS50L1LpRUUrK/7G2sRVLfnPHTTcuC+WNCu3XLtjrEzRuCOY/We/v/0ah3rqRYT5nksTFUwyFCQ=="
 }
