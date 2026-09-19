@@ -1,9 +1,9 @@
 {
-  "version": "1.18.28",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.28/AI-Setup-1.18.28.exe",
-  "notes": "桌面 v1.18.28 · 手机 v1.10.25（versionCode 55）。本版重点：1) 修复「自动压缩一直失败」——压缩请求没有关思考，推理把 max_tokens 吃光导致接口返回空内容（日志里 126 次失败 / 12 次成功，首次出现在 9/2），现在压缩请求关闭思考并把上限提到 4096，被截断的 JSON 也能把摘要抢救出来；2) 「最大输出 tokens」三条请求路径统一生效（此前联网路径写死 4096、Responses 路径根本没传，设置形同虚设）；3) 引用改为「显示短、发送全」——此前只把前 120 字送进模型（所以长句引用不全），现在整段原文进模型，引用条与气泡仍只占一行，点击可查看全文；4) 新增「思考失控」护栏——长上下文时模型会在思考里预测用户/助手发言、自导自演直到把输出预算耗光（表现为 0 回复），现在每轮注入一条独立的 system 约束（绝不并入用户消息）、思考估算达到 max_tokens 的 80% 或出现 3 次以上角色标记即中止本轮并自动重试一次（思考保持开启，只把强度降为 low）；5) token 统计标签写明「输入＝本轮全部上下文、输出＝含思考 token」，并单独显示思考 token；6) 日志加强：每轮请求参数、每次尝试的正文/思考字数与 finish_reason、护栏触发原因、正文为空诊断、压缩请求与结果；手机端另加「📋 查看运行日志」入口。手机端本次同步以上全部改动。",
-  "versionCode": 55,
-  "versionName": "1.10.25",
-  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.28/AI-Assistant-1.10.25.apk",
-  "sig": "9syfq8DdmM7EFNHd/LLJih8bRrJcGprhtxP5cSRzr9yHwX1if7aYrclME7lKEs9HC6rrvQC8SXXMh9UCkS5UCA=="
+  "version": "1.18.29",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.29/AI-Setup-1.18.29.exe",
+  "notes": "桌面 v1.18.29 · 手机 v1.10.26（versionCode 56）。本版是一次全面 bug 修复，两端同步：1) 引用改为结构化存储——嵌套引用不再错位，引用条与气泡仍只占一行、发给模型的是整段原文；2) 自动压缩输出被截断时不再把半截摘要写进会话（缩小范围重试，仍失败就放弃并保留原摘要）；3) 会话文件改为原子写入 + 损坏自动留副本，压缩/备份期间的新消息不再被旧快照覆盖；4) 修复「删除正在生成的会话后应用永久卡在生成中」；5) 只发图片不写字的用户消息不再被丢出历史（此前图片会挂到 system 或上一条回复上）；6) 关闭窗口时标签页窗口不再漏销毁（曾留下关不掉的孤儿窗口）；7) 更新源必须带有效签名才接受（此前删掉 sig 字段即可绕过验签）；8) 内嵌面板额度与归属修正（第 3 个面板此前开不出来、面板 id 会被工作台 webview 抢走）；9) 备份恢复补回附件正文与 token 统计；10) 思考护栏：关闭思考时同样生效、按长度/时间节流（大输出上限下不再卡主进程）、小输出上限时不再误伤、重试会真正追加约束而不是原样重发；11) 流式 60 秒无数据自动中止，不再永远停在「生成中」；12) 手机端：生成期间加部分唤醒锁 + 定期落盘 + 进后台先保存，修复「挂后台生成不出来」，被系统回收后会把中断的回复标出来；「停止」现在真正取消网络请求；切会话/上滑不再把内容写进别的气泡；光标闪烁不再吃掉正文末两字；切会话清理引用/图片等待发送状态；运行日志按字节裁剪、读取不再整份读；13) 两端日志继续加强（每轮请求参数、每次尝试字数与 finish、护栏触发、空正文诊断、压缩细节）。",
+  "versionCode": 56,
+  "versionName": "1.10.26",
+  "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.29/AI-Assistant-1.10.26.apk",
+  "sig": "NlXIaIyeAm8nNgcz22L2eaQY+DJgCOYkFxldBaaa54lARqLf/xgCpaoibFzO+p6RKe3BYkp9skdJEdzyFK3SBQ=="
 }
