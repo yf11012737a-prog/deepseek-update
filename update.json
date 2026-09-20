@@ -1,9 +1,9 @@
 {
-  "version": "1.18.31",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.31/AI-Setup-1.18.31.exe",
-  "notes": "桌面 v1.18.31（手机仍 1.10.27，无需更新）。本版修补内嵌面板（插件弹窗）的 webview 归属：1) 面板 id 认领从「URL 前缀比较」改为「精确匹配」——工作台与插件常在同一 127.0.0.1:3080 域名下，前缀比较会让工作台 webview 抢走面板 id，导致面板消息桥失效；2) 认领时扫描整个待挂载队列（不再只看队首），避免队首卡住后所有后续面板都认领不到；3) 面板 60 秒未挂载自动回收，不再永久占用面板额度。桌面其余内容与 1.18.30 相同。",
+  "version": "1.18.32",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.32/AI-Setup-1.18.32.exe",
+  "notes": "桌面 v1.18.32（手机仍 1.10.27）。修补内嵌面板（插件弹窗）归属：改为「渲染层显式绑定」——webview 拿到 guest 的 webContents id 后直接上报主进程（此前主进程只能靠 URL 猜，而 attach 那一刻 URL 还没赋值，可能出现工作台抢走面板 id 或面板永远认领不到）；同时保留 URL 精确匹配作为兜底、面板 60 秒未挂载自动回收。桌面其余内容与 1.18.31 相同。",
   "versionCode": 57,
   "versionName": "1.10.27",
   "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.30/AI-Assistant-1.10.27.apk",
-  "sig": "F9wYSfRoZFFtqo+hBcOXbulm5RZgW62ZcGT7dwdRxh7fZ5RCcIQ6+abIOAKmGoxSiQ4W+YPCTUAUuGJUHYafCQ=="
+  "sig": "xUZCypnCWDOaO6TjNWxkvn1fkbfHgiLqO06nVr8jiJxoSk8MAn5Wd3383fYiV0csl90iCjO3iTXdHwYCeTjSDQ=="
 }
