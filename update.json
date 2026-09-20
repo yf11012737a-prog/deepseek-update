@@ -1,9 +1,9 @@
 {
-  "version": "1.18.30",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.30/AI-Setup-1.18.30.exe",
-  "notes": "桌面 v1.18.30 · 手机 v1.10.27（versionCode 57）。本版针对上一版（1.18.29 / 1.10.26）的回归审查结果做修补：1) 流式事件按请求 id 过滤——删除正在生成的会话后，旧请求迟到的 done/error 不再拆掉新流的界面（此前会导致新回复在界面上完全不出现）；2) 重绘后按「消息对象」重新定位流式行——生成中点生图/点重新生成时，正文与思考仍能实时上屏（此前要等结束才一次性出现）；3) 重新生成也预建思考面板与光标，思考期间不再像卡住；4) 引用重试约束的插入位置修正：联网（Anthropic）路径改顶层 system 字段，不再往 messages 里塞 system 角色（DeepSeek 端点容忍，严格网关会 400）；5) 空闲看门狗不再被误报成「用户手动停止」，会如实提示「服务端 N 秒没返回数据，已自动中止」；6) 压缩落库改为「按内容找位置」推进指针——压缩期间用户删消息不会再越过未压缩的消息；7) 引用字段两端兼容（桌面 {text} / 手机字符串），手机备份恢复到桌面不再丢引用；导出 Markdown 与压缩转录补回引用原文；8) 手动删除旧文件副本改为每次运行最多 2 份，不再成倍堆积；9) 手机端：流式收尾加「代次」校验（旧线程不再收走新流的按钮/保活/唤醒锁）；「停止」后线程立即终止后续步骤（不再继续发请求/压缩）；停止只标记真正在生成的那条消息（切会话后不会标错）；唤醒锁在长生成中自动续期；「编辑重发/只引用不写字/新建会话」的引用状态处理补齐；搜索词改为不可变列表（消除跨线程崩溃窗口）；被系统回收中断的回复改为按落盘标志精确标记（不再误标正常空回复）。",
+  "version": "1.18.31",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.31/AI-Setup-1.18.31.exe",
+  "notes": "桌面 v1.18.31（手机仍 1.10.27，无需更新）。本版修补内嵌面板（插件弹窗）的 webview 归属：1) 面板 id 认领从「URL 前缀比较」改为「精确匹配」——工作台与插件常在同一 127.0.0.1:3080 域名下，前缀比较会让工作台 webview 抢走面板 id，导致面板消息桥失效；2) 认领时扫描整个待挂载队列（不再只看队首），避免队首卡住后所有后续面板都认领不到；3) 面板 60 秒未挂载自动回收，不再永久占用面板额度。桌面其余内容与 1.18.30 相同。",
   "versionCode": 57,
   "versionName": "1.10.27",
   "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.30/AI-Assistant-1.10.27.apk",
-  "sig": "CLDG0AsWNcvzbpZOcN/7h7Js/M5sruU71RUGCr+kzFQ0cuvmeR+NxGkLti3Rsp4Y7kSi1uh7g0aDXPQgNMm2Cw=="
+  "sig": "F9wYSfRoZFFtqo+hBcOXbulm5RZgW62ZcGT7dwdRxh7fZ5RCcIQ6+abIOAKmGoxSiQ4W+YPCTUAUuGJUHYafCQ=="
 }
