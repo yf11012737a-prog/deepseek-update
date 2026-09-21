@@ -1,9 +1,9 @@
 {
-  "version": "1.18.32",
-  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.32/AI-Setup-1.18.32.exe",
-  "notes": "桌面 v1.18.32（手机仍 1.10.27）。修补内嵌面板（插件弹窗）归属：改为「渲染层显式绑定」——webview 拿到 guest 的 webContents id 后直接上报主进程（此前主进程只能靠 URL 猜，而 attach 那一刻 URL 还没赋值，可能出现工作台抢走面板 id 或面板永远认领不到）；同时保留 URL 精确匹配作为兜底、面板 60 秒未挂载自动回收。桌面其余内容与 1.18.31 相同。",
+  "version": "1.18.33",
+  "url": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.33/AI-Setup-1.18.33.exe",
+  "notes": "桌面 v1.18.33（手机仍 1.10.27）。修复「屏幕不会自动关闭」：内嵌动画壁纸在窗口切到后台后仍持续播放，Chromium 一直持有 Video Wake Lock，系统判定有媒体在播，显示器永不熄灭。现在窗口失焦/隐藏/最小化时自动暂停「无声视频」（静音或音量 0 的 video/audio），回到前台再自动恢复，不影响正在收听/观看的有声播放，并写入日志便于排查。桌面其余内容与 1.18.32 相同（面板归属显式绑定、引用全文发送、思考防跑偏、自动压缩修复）。",
   "versionCode": 57,
   "versionName": "1.10.27",
   "apkUrl": "https://github.com/yf11012737a-prog/deepseek-update/releases/download/v1.18.30/AI-Assistant-1.10.27.apk",
-  "sig": "xUZCypnCWDOaO6TjNWxkvn1fkbfHgiLqO06nVr8jiJxoSk8MAn5Wd3383fYiV0csl90iCjO3iTXdHwYCeTjSDQ=="
+  "sig": "Ys9+l99nbMPy13nuAwgU4XFNp1gjDoxAOUe0Kzt5I1RVCsRyk0l6i3nyDmVSiOJJIb7+Ai/AK9UBy1ZF08gsBg=="
 }
